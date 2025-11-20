@@ -1,0 +1,224 @@
+ *******************************************************************************
+ ** Site#: 37894        For non-commercial use only           Version 21.174M **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 21.174M, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 358**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Wed Jun 30 11:12:04 2021  *
+ *  RHF        - RESTRICTED HARTREE-FOCK CALCULATION
+ *  1SCF       - DO 1 SCF AND THEN STOP 
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  VECTORS    - FINAL EIGENVECTORS TO BE PRINTED
+ *  FOCK       - LAST FOCK MATRIX TO BE PRINTED
+ *  LARGE      - EXPANDED OUTPUT TO BE PRINTED
+ *  GRAPH      - GENERATE FILE FOR GRAPHICS
+ *  MULLIK     - THE MULLIKEN ANALYSIS TO BE PERFORMED
+ *******************************************************************************
+RHF VECTORS 1SCF LARGE MULLIK GRAPHF FOCK
+ CH4 methane
+
+  ATOM    CHEMICAL      BOND LENGTH      BOND ANGLE     TWIST ANGLE 
+ NUMBER    SYMBOL       (ANGSTROMS)      (DEGREES)       (DEGREES) 
+   (I)                     NA:I           NB:NA:I       NC:NB:NA:I       NA    NB    NC 
+     1       C          0.00000000       0.0000000       0.0000000        0     0     0
+     2       H          1.08900000  *    0.0000000       0.0000000        1     0     0
+     3       H          1.08900000  *  109.4710000  *    0.0000000        1     2     0
+     4       H          1.08900000  *  109.4710000  *  120.0000000  *     1     2     3
+     5       H          1.08900000  *  109.4710000  * -120.0000000  *     1     2     3
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         C          0.0000      0.0000      0.0000
+     2         H          1.0890      0.0000      0.0000
+     3         H         -0.3630      1.0267      0.0000
+     4         H         -0.3630     -0.5134     -0.8892
+     5         H         -0.3630     -0.5134      0.8892
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: C H4  =     5 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Td  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 4
+
+
+ -------------------------------------------------------------------------------
+ RHF VECTORS 1SCF LARGE MULLIK GRAPHF FOCK
+ CH4 methane
+
+
+
+     1SCF WAS SPECIFIED, SO BFGS WAS NOT USED                 
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2016 (Version: 21.174M)
+                                                       Wed Jun 30 11:12:04 2021
+                                                       No. of days remaining = 358
+
+
+
+
+          FINAL HEAT OF FORMATION =        -14.38448 KCAL/MOL =     -60.18468 KJ/MOL
+
+
+          TOTAL ENERGY            =       -177.04237 EV
+          ELECTRONIC ENERGY       =       -389.92929 EV  POINT GROUP:     Td  
+          CORE-CORE REPULSION     =        212.88692 EV
+          COSMO AREA              =         54.91 SQUARE ANGSTROMS
+          COSMO VOLUME            =         37.13 CUBIC ANGSTROMS
+
+          IONIZATION POTENTIAL    =         13.702725 EV
+          HOMO LUMO ENERGIES (EV) =        -13.703  5.897
+          NO. OF FILLED LEVELS    =          4
+          MOLECULAR WEIGHT        =         16.0426
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H     5    H     4     1.77833
+            H     3    H     2     1.77833
+            H     2    H     4     1.25747
+
+
+          SCF CALCULATIONS        =          1
+ 
+          WALL-CLOCK TIME         =          0.012 SECONDS
+          COMPUTATION TIME        =          0.011 SECONDS
+
+
+
+
+  ATOM    CHEMICAL      BOND LENGTH      BOND ANGLE     TWIST ANGLE 
+ NUMBER    SYMBOL       (ANGSTROMS)      (DEGREES)       (DEGREES) 
+   (I)                     NA:I           NB:NA:I       NC:NB:NA:I       NA    NB    NC 
+     1       C          0.00000000       0.0000000       0.0000000        0     0     0
+     2       H          1.08900000  *    0.0000000       0.0000000        1     0     0
+     3       H          1.08900000  *  109.4710000  *    0.0000000        1     2     0
+     4       H          1.08900000  *  109.4710000  *  120.0000000  *     1     2     3
+     5       H          1.08900000  *  109.4710000  * -120.0000000  *     1     2     3
+
+                             CARTESIAN COORDINATES
+
+   1    C        0.000000000     0.000000000     0.000000000
+   2    H        1.089000000     0.000000000     0.000000000
+   3    H       -0.362996046     1.026720444     0.000000000
+   4    H       -0.362996046    -0.513360222    -0.889165987
+   5    H       -0.362996046    -0.513360222     0.889165987
+
+
+           Empirical Formula: C H4  =     5 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Td  
+
+
+                EIGENVECTORS  
+
+
+   Root No.       1         2         3         4         5         6         7         8
+
+                 1 a1      1 t2      1 t2      1 t2      2 t2      2 t2      2 t2      2 a1  
+
+               -24.936   -13.703   -13.703   -13.703     5.897     5.897     5.897     7.380
+  
+  S   C    1    0.7235   -0.0000    0.0000   -0.0000    0.0000    0.0000   -0.0000    0.6904
+  Px  C    1    0.0000   -0.0000    0.0000    0.7698   -0.6382    0.0000   -0.0000    0.0000
+  Py  C    1    0.0000    0.7664   -0.0729    0.0000    0.0000    0.6321   -0.0884   -0.0000
+  Pz  C    1    0.0000    0.0729    0.7664   -0.0000   -0.0000    0.0884    0.6321    0.0000
+  S   H    2    0.3452   -0.0000    0.0000    0.5527    0.6667   -0.0000    0.0000   -0.3617
+  S   H    3    0.3452    0.5188   -0.0494   -0.1842   -0.2222   -0.6225    0.0871   -0.3617
+  S   H    4    0.3452   -0.3021   -0.4246   -0.1842   -0.2222    0.3867    0.4956   -0.3617
+  S   H    5    0.3452   -0.2166    0.4740   -0.1842   -0.2222    0.2359   -0.5826   -0.3617
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          C          -0.602666        4.6027     1.04677     3.55590
+    2          H           0.150666        0.8493     0.84933
+    3          H           0.150667        0.8493     0.84933
+    4          H           0.150667        0.8493     0.84933
+    5          H           0.150667        0.8493     0.84933
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.     0.000    -0.000     0.000     0.000
+ HYBRID         0.000     0.000    -0.000     0.000
+ SUM            0.000    -0.000     0.000     0.000
+ FOCK MATRIX 
+
+
+               S  C  1   PX  C  1   PY  C  1   PZ  C  1    S  H  2    S  H  3
+ ------------------------------------------------------------------------------
+  S  C    1  -9.533807
+ PX  C    1   0.000004  -5.718717
+ PY  C    1   0.000000  -0.000000  -5.718713
+ PZ  C    1  -0.000000   0.000000   0.000000  -5.718713
+  S  H    2  -8.070291  -8.340033  -0.000000   0.000000  -3.570760
+  S  H    3  -8.070298   2.779989  -7.863062   0.000000  -1.483891  -3.570751
+  S  H    4  -8.070298   2.779989   3.931531   6.809612  -1.483891  -1.483877
+  S  H    5  -8.070298   2.779989   3.931531  -6.809612  -1.483891  -1.483877
+
+
+               S  H  4    S  H  5
+ ------------------------------
+  S  H    4  -3.570751
+  S  H    5  -1.483877  -3.570751
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz   
+    1  C   1.04677   1.18530   1.18530   1.18530
+    2  H   0.84933
+    3  H   0.84933
+    4  H   0.84933
+    5  H   0.84933
+
+           MULLIKEN POPULATION ANALYSIS
+
+           DATA FOR GRAPH WRITTEN TO DISK
+
+
+
+        MULLIKEN POPULATIONS AND CHARGES
+
+      NO.  ATOM   POPULATION      CHARGE
+        1    C     4.778253     -0.778253
+        2    H     0.805437      0.194563
+        3    H     0.805437      0.194563
+        4    H     0.805437      0.194563
+        5    H     0.805437      0.194563
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.02 SECONDS
+
+ == MOPAC DONE ==
